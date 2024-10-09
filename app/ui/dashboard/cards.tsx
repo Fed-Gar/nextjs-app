@@ -28,7 +28,7 @@ export default async function CardWrapper() {
       /> */}
     </>
   );
-}
+};
 
 export function Card({
   title,
@@ -55,4 +55,4 @@ export function Card({
       </p>
     </div>
   );
-}
+};
