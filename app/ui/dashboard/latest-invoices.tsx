@@ -3,15 +3,15 @@ import clsx from 'clsx';
 import { ArrowPathIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 
+// Data queries
+import { fetchLatestInvoices } from '@/app/lib/data';
+
+// Fonts
 import { lusitana } from '@/app/ui/fonts';
 
-import { LatestInvoice } from '@/app/lib/definitions';
+export default async function LatestInvoices() {
+  const latestInvoices = await fetchLatestInvoices();
 
-export default async function LatestInvoices({
-  latestInvoices,
-}: {
-  latestInvoices: LatestInvoice[];
-}) {
   return (
     <div className="flex w-full flex-col md:col-span-4">
       <h2 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>

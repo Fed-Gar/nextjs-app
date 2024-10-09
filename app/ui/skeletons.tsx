@@ -16,7 +16,7 @@ export function CardSkeleton() {
       </div>
     </div>
   );
-}
+};
 
 export function CardsSkeleton() {
   return (
@@ -27,7 +27,7 @@ export function CardsSkeleton() {
       <CardSkeleton />
     </>
   );
-}
+};
 
 export function RevenueChartSkeleton() {
   return (
@@ -42,7 +42,7 @@ export function RevenueChartSkeleton() {
       </div>
     </div>
   );
-}
+};
 
 export function InvoiceSkeleton() {
   return (
@@ -57,7 +57,7 @@ export function InvoiceSkeleton() {
       <div className="mt-2 h-4 w-12 rounded-md bg-gray-200" />
     </div>
   );
-}
+};
 
 export function LatestInvoicesSkeleton() {
   return (
@@ -80,7 +80,7 @@ export function LatestInvoicesSkeleton() {
       </div>
     </div>
   );
-}
+};
 
 export default function DashboardSkeleton() {
   return (
@@ -100,7 +100,7 @@ export default function DashboardSkeleton() {
       </div>
     </>
   );
-}
+};
 
 export function TableRowSkeleton() {
   return (
@@ -137,7 +137,7 @@ export function TableRowSkeleton() {
       </td>
     </tr>
   );
-}
+};
 
 export function InvoicesMobileSkeleton() {
   return (
@@ -161,7 +161,7 @@ export function InvoicesMobileSkeleton() {
       </div>
     </div>
   );
-}
+};
 
 export function InvoicesTableSkeleton() {
   return (
@@ -215,4 +215,4 @@ export function InvoicesTableSkeleton() {
       </div>
     </div>
   );
-}
+};
